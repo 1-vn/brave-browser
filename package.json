@@ -1,7 +1,7 @@
 {
-  "name": "brave",
+  "name": "one-vn",
   "version": "0.66.41",
-  "description": "Next generation Brave browser for macOS, Windows, Linux, and eventually Android",
+  "description": "Next generation 1-VN browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "node ./scripts/audit.js",
     "cibuild": "node ./scripts/commands.js cibuild",
@@ -57,7 +57,7 @@
     "url": "git+https://github.com/1-vn/brave-browser.git"
   },
   "author": {
-    "name": "1-VN Software <support@brave.com>"
+    "name": "1-VN Software <support@1-vn.com>"
   },
   "contributors": [
     {
