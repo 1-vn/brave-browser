@@ -44,7 +44,7 @@
         "dir": "src/brave",
         "branch": "master",
         "repository": {
-          "url": "https://github.com/brave/brave-core.git"
+          "url": "https://github.com/1-vn/brave-core.git"
         }
       }
     },
@@ -54,10 +54,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-browser.git"
+    "url": "git+https://github.com/1-vn/brave-browser.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "1-VN Software <support@brave.com>"
   },
   "contributors": [
     {
@@ -247,13 +247,17 @@
     {
       "name": "Sergey Zhukovsky",
       "email": "serg@brave.com"
+    },
+    {
+      "name": "Daniel Do",
+      "email": "dotiendiep@gmail.com"
     }
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/1-vn/brave-browser/issues"
   },
-  "homepage": "https://github.com/brave/brave-browser#readme",
+  "homepage": "https://github.com/1-vn/brave-browser#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "fs-extra": "^1.0.0"
