@@ -501,7 +501,7 @@ pipeline {
                                 timeout(time: 4, unit: "MINUTES") {
                                     script {
                                         try {
-                                            powershell "npm run test-security -- --output_path=\"${OUT_DIR}/brave.exe\""
+                                            powershell "npm run test-security -- --output_path=\"${OUT_DIR}/1-vn.exe\""
                                         }
                                         catch (ex) {
                                             currentBuild.result = "UNSTABLE"
@@ -675,7 +675,7 @@ pipeline {
                                 timeout(time: 4, unit: "MINUTES") {
                                     script {
                                         try {
-                                            powershell "npm run test-security -- --output_path=\"${OUT_DIR}/brave.exe\""
+                                            powershell "npm run test-security -- --output_path=\"${OUT_DIR}/1-vn.exe\""
                                         }
                                         catch (ex) {
                                             currentBuild.result = "UNSTABLE"
