@@ -25,8 +25,8 @@ INSUFFICIENT INFO WILL GET THE ISSUE CLOSED. IT WILL ONLY BE REOPENED AFTER SUFF
 <!--[Easily reproduced/Intermittent issue/No steps to reproduce]-->
 
 
-## Brave version (brave://version info)
-<!--For installed build, please copy Brave, Revision and OS from brave://version and paste here. If building from source please mention it along with brave://version details-->
+## OneVN version (onevn://version info)
+<!--For installed build, please copy OneVN, Revision and OS from onevn://version and paste here. If building from source please mention it along with onevn://version details-->
 
 
 ## Version/Channel Information:
@@ -39,8 +39,8 @@ INSUFFICIENT INFO WILL GET THE ISSUE CLOSED. IT WILL ONLY BE REOPENED AFTER SUFF
 
 ## Other Additional Information:
 
-- Does the issue resolve itself when disabling Brave Shields?
-- Does the issue resolve itself when disabling Brave Rewards?
+- Does the issue resolve itself when disabling OneVN Shields?
+- Does the issue resolve itself when disabling OneVN Rewards?
 - Is the issue reproducible on the latest version of Chrome? 
 
 ## Miscellaneous Information:

@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Brave Browser'
-copyright = '2019, Brave Software'
-author = 'Brave Software'
+project = 'OneVN Browser'
+copyright = '2019, OneVN Software'
+author = 'OneVN Software'
 
 # The short X.Y version
 version = ''
@@ -81,8 +81,8 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-'description': 'Next generation Brave browser for macOS, Windows, Linux. <a href="https://www.brave.com">brave.com</a>',
-'logo': 'brave-release.svg',
+'description': 'Next generation OneVN browser for macOS, Windows, Linux. <a href="https://www.1-vn.com">1-vn.com</a>',
+'logo': 'onevn-release.svg',
 'head_font_family': 'Muli, Proxima Nova, Avenir',
 'caption_font_size': '14px',
 'caption_font_family': 'Muli, Proxima Nova, Avenir',
@@ -113,7 +113,7 @@ html_favicon = '_static/product_logo_32.png'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'BraveBrowserdoc'
+htmlhelp_basename = 'OneVNBrowserdoc'
 
 html_css_files = '_static/custom.css'
 
@@ -142,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'BraveBrowser.tex', 'Brave Browser Documentation',
-     'Brave Software', 'manual'),
+    (master_doc, 'OneVNBrowser.tex', 'OneVN Browser Documentation',
+     'OneVN Software', 'manual'),
 ]
 
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'bravebrowser', 'Brave Browser Documentation',
+    (master_doc, 'onevnbrowser', 'OneVN Browser Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'BraveBrowser', 'Brave Browser Documentation',
-     author, 'BraveBrowser', 'One line description of project.',
+    (master_doc, 'OneVNBrowser', 'OneVN Browser Documentation',
+     author, 'OneVNBrowser', 'One line description of project.',
      'Miscellaneous'),
 ]
 

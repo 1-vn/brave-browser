@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = BraveBrowser
+SPHINXPROJ    = OneVNBrowser
 SOURCEDIR     = source
 BUILDDIR      = build
 

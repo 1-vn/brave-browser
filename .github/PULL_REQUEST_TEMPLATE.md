@@ -1,13 +1,13 @@
 ## Submitter Checklist:
 
-- [ ] Submitted a [ticket](https://github.com/brave/brave-browser/issues) for my issue if one did not already exist.
+- [ ] Submitted a [ticket](https://github.com/onevn/onevn-browser/issues) for my issue if one did not already exist.
 - [ ] Used Github [auto-closing keywords](https://help.github.com/articles/closing-issues-via-commit-messages/) in the commit message.
 - [ ] Added/updated tests for this change (for new code or code which already has tests).
 - Verified that these changes build without errors on
   - [ ] Windows
   - [ ] macOS
   - [ ] Linux
-- Verified that these changes pass automated tests (`npm test brave_unit_tests && npm test brave_browser_tests && npm run test-security`) on
+- Verified that these changes pass automated tests (`npm test onevn_unit_tests && npm test onevn_browser_tests && npm run test-security`) on
   - [ ] Windows
   - [ ] macOS
   - [ ] Linux
@@ -16,12 +16,12 @@
 - [ ] Tagged reviewers and labelled the pull request as needed.
 - [ ] Requested a security/privacy review as needed.
 - [ ] Public documentation has been updated as necessary. For instance:
-  - [ ] https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)
-  - [ ] https://github.com/brave/brave-browser/wiki/Proxy-redirected-URLs
-  - [ ] https://github.com/brave/brave-browser/wiki/Fingerprinting-Protection-Mode
-  - [ ] https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes
-  - [ ] https://github.com/brave/brave-browser/wiki/Custom-Headers
-  - [ ] https://github.com/brave/brave-browser/wiki/Web-compatibility-issues-with-tracking-protection
+  - [ ] https://github.com/onevn/onevn-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)
+  - [ ] https://github.com/onevn/onevn-browser/wiki/Proxy-redirected-URLs
+  - [ ] https://github.com/onevn/onevn-browser/wiki/Fingerprinting-Protection-Mode
+  - [ ] https://github.com/onevn/onevn-browser/wiki/OneVN%E2%80%99s-Use-of-Referral-Codes
+  - [ ] https://github.com/onevn/onevn-browser/wiki/Custom-Headers
+  - [ ] https://github.com/onevn/onevn-browser/wiki/Web-compatibility-issues-with-tracking-protection
 
 ## Test Plan:
 

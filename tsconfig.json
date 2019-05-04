@@ -12,7 +12,7 @@
     "moduleResolution": "node",
     "typeRoots": [
       "./node_modules/@types",
-      "./src/brave/components/definitions"
+      "./src/onevn/components/definitions"
     ],
     // optional
     "forceConsistentCasingInFileNames": true,
@@ -22,6 +22,6 @@
     "noUnusedLocals": true
   },
   "include": [
-    "./src/brave/components/**/*.{ts,tsx}"
+    "./src/onevn/components/**/*.{ts,tsx}"
   ]
 }

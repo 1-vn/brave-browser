@@ -3,11 +3,11 @@
 Documentation
 *************
 
-We use Sphinx to render, and readthedocs.org to publish, Brave Browser
-documentation. You can view the latest documentation at `https://brave-browser.readthedocs.io/en/latest/ <https://brave-browser.readthedocs.io/en/latest/>`_.
+We use Sphinx to render, and readthedocs.org to publish, OneVN Browser
+documentation. You can view the latest documentation at `https://onevn-browser.readthedocs.io/en/latest/ <https://onevn-browser.readthedocs.io/en/latest/>`_.
 
-Contributing to Brave Browser documentation can be done by editing the
-``docs/source/*.rst`` files in the `brave-browser repository <https://github.com/brave/brave-browser>`_
+Contributing to OneVN Browser documentation can be done by editing the
+``docs/source/*.rst`` files in the `onevn-browser repository <https://github.com/onevn/onevn-browser>`_
 and then opening a PR.
 
 
@@ -56,7 +56,7 @@ Example::
     The HTML pages are in build/html.
 
 Now you can view the pages by pointing a web browser at the file
-``brave-browser/docs/build/html/index.html``.
+``onevn-browser/docs/build/html/index.html``.
 
 After you have verified the documentation looks like you want, you can commit
 it and open a PR in GitHub.
@@ -64,11 +64,11 @@ it and open a PR in GitHub.
 ReadTheDocs
 ===========
 
-We have a project for the `brave-browser repository <https://github.com/brave/brave-browser>`_
+We have a project for the `onevn-browser repository <https://github.com/onevn/onevn-browser>`_
 already setup on readthedocs.org. You can view the latest documentation at
-`https://brave-browser.readthedocs.io/en/latest/ <https://brave-browser.readthedocs.io/en/latest/>`_.
+`https://onevn-browser.readthedocs.io/en/latest/ <https://onevn-browser.readthedocs.io/en/latest/>`_.
 
-By default, `readthedocs <http://brave-browser.readthedocs.io/>`_
+By default, `readthedocs <http://onevn-browser.readthedocs.io/>`_
 will render any new changes to the documentation
 nightly. But readthedocs.org also allows setting up a webhook that will
 render new changes to the live site when any commit lands in the repository.

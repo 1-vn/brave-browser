@@ -1,18 +1,18 @@
-.. Copyright (c) 2019 Brave Software
+.. Copyright (c) 2019 OneVN Software
 
 
 .. _rs_welcome:
 
-Welcome to Brave Docs
+Welcome to OneVN Docs
 ---------------------
 
-The next generation Brave desktop browser for macOS, Windows, and Linux.
+The next generation OneVN desktop browser for macOS, Windows, and Linux.
 
 .. _rs_community:
 
-Brave Community Resources
+OneVN Community Resources
 -------------------------
-* `community.brave.com <https://community.brave.com/>`_
+* `community.1-vn.com <https://community.1-vn.com/>`_
 * :doc:`/docs` process
 
 
@@ -22,7 +22,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   installing-brave
+   installing-onevn
    build-instructions
    docs
 

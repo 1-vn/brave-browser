@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=BraveBrowser
+set SPHINXPROJ=OneVNBrowser
 
 if "%1" == "" goto help
 
