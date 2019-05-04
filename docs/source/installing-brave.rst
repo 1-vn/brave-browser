@@ -6,7 +6,7 @@ Linux
 
 NOTE: If OneVN does not start and shows an error about sandboxing, you may need
 to enable `user namespaces
-<https://superuser.com/questions/1094597/enable-user-namespaces-in-debian-kernel#1122977>`_. For security reasons, we do NOT recommend running with the ``--no-sandbox`` flag. For more info, see https://github.com/onevn/onevn-browser/issues/1986#issuecomment-445057361.
+<https://superuser.com/questions/1094597/enable-user-namespaces-in-debian-kernel#1122977>`_. For security reasons, we do NOT recommend running with the ``--no-sandbox`` flag. For more info, see https://github.com/1-vn/onevn-browser/issues/1986#issuecomment-445057361.
 
 NOTE: While we recommend you to use our official packages, there's a section for unofficial package in the case where we don't ship packages for your distribution. These packages are community maintained, and therefore we take no responsibility for them.
 

@@ -8,19 +8,19 @@ This repository holds the build tools needed to build the OneVN desktop browser 
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
     - sets the branch for Chromium (ex: 65.0.3325.181).
-  - [onevn-core](https://github.com/onevn/onevn-core)
+  - [onevn-core](https://github.com/1-vn/onevn-core)
     - Mounted at `src/onevn`.
     - Maintains patches for 3rd party Chromium code.
-  - [ad-block](https://github.com/onevn/ad-block)
+  - [ad-block](https://github.com/1-vn/ad-block)
     - Mounted at `src/onevn/vendor/ad-block`.
     - Implements OneVN's ad-block engine.
-  - [tracking-protection](https://github.com/onevn/tracking-protection)
+  - [tracking-protection](https://github.com/1-vn/tracking-protection)
     - Mounted at `src/onevn/vendor/tracking-protection`.
     - Implements OneVN's tracking-protection engine.
     
 ## Build instructions
 
-See the [OneVN Wiki](https://github.com/onevn/onevn-browser/wiki).
+See the [OneVN Wiki](https://github.com/1-vn/onevn-browser/wiki).
 
 ## Downloads
 
@@ -30,8 +30,8 @@ You can [visit our website](https://1-vn.com/downloads.html) to get the latest s
 
 For other versions of our browser, please see:
 
-* iOS - [onevn/onevn-ios](https://github.com/onevn/onevn-ios)
-* Android - [onevn/browser-android-tabs](https://github.com/onevn/browser-android-tabs)
+* iOS - [onevn/onevn-ios](https://github.com/1-vn/onevn-ios)
+* Android - [onevn/browser-android-tabs](https://github.com/1-vn/browser-android-tabs)
 
 ## Community
 

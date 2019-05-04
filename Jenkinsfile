@@ -45,7 +45,7 @@ pipeline {
                     RELEASE_TYPE = (JOB_NAME == "onevn-browser-build" ? "release" : "ci")
                     BRANCH_TO_BUILD = (env.CHANGE_BRANCH == null ? BRANCH : env.CHANGE_BRANCH)
                     ONEVN_GITHUB_TOKEN = "onevn-browser-releases-github"
-                    GITHUB_API = "https://api.github.com/repos/onevn"
+                    GITHUB_API = "https://api.github.com/repos/1-vn"
                     GITHUB_CREDENTIAL_ID = "onevn-builds-github-token-for-pr-builder"
                     // BRANCH_EXISTS_IN_BC = httpRequest(url: GITHUB_API + "/onevn-core/branches/" + BRANCH_TO_BUILD, validResponseCodes: '100:499', authentication: GITHUB_CREDENTIAL_ID, quiet: !DEBUG).status == 200
                     SKIP = false
@@ -94,7 +94,7 @@ pipeline {
                                 }
                             }
                             steps {
-                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/onevn/onevn-browser.git']]])
+                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/1-vn/onevn-browser.git']]])
                             }
                         }
                         // stage("pin") {
@@ -249,7 +249,7 @@ pipeline {
                                 }
                             }
                             steps {
-                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/onevn/onevn-browser.git']]])
+                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/1-vn/onevn-browser.git']]])
                             }
                         }
                         // stage("pin") {
@@ -431,7 +431,7 @@ pipeline {
                                 }
                             }
                             steps {
-                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/onevn/onevn-browser.git']]])
+                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/1-vn/onevn-browser.git']]])
                             }
                         }
                         // stage("pin") {
@@ -605,7 +605,7 @@ pipeline {
                                 }
                             }
                             steps {
-                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/onevn/onevn-browser.git']]])
+                                checkout([$class: 'GitSCM', branches: [[name: "${BRANCH_TO_BUILD}"]], extensions: [[$class: 'WipeWorkspace']], userRemoteConfigs: [[url: 'https://github.com/1-vn/onevn-browser.git']]])
                             }
                         }
                         // stage("pin") {

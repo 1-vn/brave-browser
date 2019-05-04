@@ -81,7 +81,7 @@ program
   .option('--enable_onevn_update', 'enable onevn update')
   .option('--channel <target_chanel>', 'target channel to start', /^(beta|dev|nightly|release)$/i, 'release')
   .option('--official_build <official_build>', 'force official build settings')
-  // See https://github.com/onevn/onevn-browser/wiki/Rewards#flags for more information
+  // See https://github.com/1-vn/onevn-browser/wiki/Rewards#flags for more information
   .option('--rewards [options]', 'options for rewards')
   .option('--onevn_ads_testing', 'ads testing')
   .option('--onevn_ads_production', 'ads production')
