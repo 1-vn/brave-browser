@@ -329,7 +329,7 @@ pipeline {
                                 timeout(time: 4, unit: "MINUTES") {
                                     script {
                                         try {
-                                            sh "npm run test-security -- --output_path=\"${OUT_DIR}/1-VN\\ Browser\\ ${CHANNEL_CAPITALIZED}.app/Contents/MacOS/1-VN\\ Browser\\ ${CHANNEL_CAPITALIZED}\""
+                                            sh "npm run test-security -- --output_path=\"${OUT_DIR}/OneVN\\ Browser\\ ${CHANNEL_CAPITALIZED}.app/Contents/MacOS/OneVN\\ Browser\\ ${CHANNEL_CAPITALIZED}\""
                                         }
                                         catch (ex) {
                                             currentBuild.result = "UNSTABLE"
