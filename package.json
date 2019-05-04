@@ -1,6 +1,6 @@
 {
   "name": "one-vn",
-  "version": "0.66.41",
+  "version": "0.66.42",
   "description": "Next generation 1-VN browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "node ./scripts/audit.js",
