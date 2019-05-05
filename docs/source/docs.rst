@@ -3,10 +3,10 @@
 Documentation
 *************
 
-We use Sphinx to render, and readthedocs.org to publish, OneVN Browser
+We use Sphinx to render, and readthedocs.org to publish, Onevn Browser
 documentation. You can view the latest documentation at `https://onevn-browser.readthedocs.io/en/latest/ <https://onevn-browser.readthedocs.io/en/latest/>`_.
 
-Contributing to OneVN Browser documentation can be done by editing the
+Contributing to Onevn Browser documentation can be done by editing the
 ``docs/source/*.rst`` files in the `onevn-browser repository <https://github.com/1-vn/onevn-browser>`_
 and then opening a PR.
 

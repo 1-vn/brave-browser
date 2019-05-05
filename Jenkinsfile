@@ -329,7 +329,7 @@ pipeline {
                                 timeout(time: 4, unit: "MINUTES") {
                                     script {
                                         try {
-                                            sh "npm run test-security -- --output_path=\"${OUT_DIR}/OneVN\\ Browser\\ ${CHANNEL_CAPITALIZED}.app/Contents/MacOS/OneVN\\ Browser\\ ${CHANNEL_CAPITALIZED}\""
+                                            sh "npm run test-security -- --output_path=\"${OUT_DIR}/Onevn\\ Browser\\ ${CHANNEL_CAPITALIZED}.app/Contents/MacOS/Onevn\\ Browser\\ ${CHANNEL_CAPITALIZED}\""
                                         }
                                         catch (ex) {
                                             currentBuild.result = "UNSTABLE"
@@ -416,7 +416,7 @@ pipeline {
                         SCCACHE_BUCKET = credentials("onevn-browser-sccache-win-s3-bucket")
                         PATH = "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.17134.0\\x64\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\Remote Debugger\\x64;${PATH}"
                         SIGNTOOL_ARGS = "sign /t http://timestamp.verisign.com/scripts/timstamp.dll /fd sha256 /sm"
-                        CERT = "OneVN"
+                        CERT = "Onevn"
                         KEY_CER_PATH = "C:\\jenkins\\digicert-key\\digicert.cer"
                         KEY_PFX_PATH = "C:\\jenkins\\digicert-key\\digicert.pfx"
                         AUTHENTICODE_PASSWORD = credentials("digicert-onevn-browser-development-certificate-ps-escaped")
@@ -557,22 +557,22 @@ pipeline {
                                 s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "onevn_installer_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowser${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowser${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserSilent${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserSilent${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandalone${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandalone${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandaloneSilent${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandaloneSilent${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandaloneUntagged${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandaloneUntagged${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserUntagged${CHANNEL_CAPITALIZED}Setup_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserUntagged${CHANNEL_CAPITALIZED}Setup_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
                             }
@@ -590,7 +590,7 @@ pipeline {
                         SCCACHE_BUCKET = credentials("onevn-browser-sccache-win-s3-bucket")
                         PATH = "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.17134.0\\x64\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\Remote Debugger\\x64;${PATH}"
                         SIGNTOOL_ARGS = "sign /t http://timestamp.verisign.com/scripts/timstamp.dll /fd sha256 /sm"
-                        CERT = "OneVN"
+                        CERT = "Onevn"
                         KEY_CER_PATH = "C:\\jenkins\\digicert-key\\digicert.cer"
                         KEY_PFX_PATH = "C:\\jenkins\\digicert-key\\digicert.pfx"
                         AUTHENTICODE_PASSWORD = credentials("digicert-onevn-browser-development-certificate-ps-escaped")
@@ -731,22 +731,22 @@ pipeline {
                                 s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "onevn_installer_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowser${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowser${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserSilent${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserSilent${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandalone${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandalone${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandaloneSilent${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandaloneSilent${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserStandaloneUntagged${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserStandaloneUntagged${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
-                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OneVNBrowserUntagged${CHANNEL_CAPITALIZED}Setup32_*.exe",
+                                s3Upload(acl: "Private", bucket: "${ONEVN_ARTIFACTS_BUCKET}", includePathPattern: "OnevnBrowserUntagged${CHANNEL_CAPITALIZED}Setup32_*.exe",
                                     path: "${JOB_NAME}/${BUILD_NUMBER}/", pathStyleAccessEnabled: true, payloadSigningEnabled: true, workingDir: "${OUT_DIR}"
                                 )
                             }

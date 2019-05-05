@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'OneVN Browser'
-copyright = '2019, OneVN Software'
-author = 'OneVN Software'
+project = 'Onevn Browser'
+copyright = '2019, Onevn Software'
+author = 'Onevn Software'
 
 # The short X.Y version
 version = ''
@@ -81,7 +81,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-'description': 'Next generation OneVN browser for macOS, Windows, Linux. <a href="https://www.1-vn.com">1-vn.com</a>',
+'description': 'Next generation Onevn browser for macOS, Windows, Linux. <a href="https://www.1-vn.com">1-vn.com</a>',
 'logo': 'onevn-release.svg',
 'head_font_family': 'Muli, Proxima Nova, Avenir',
 'caption_font_size': '14px',
@@ -113,7 +113,7 @@ html_favicon = '_static/product_logo_32.png'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OneVNBrowserdoc'
+htmlhelp_basename = 'OnevnBrowserdoc'
 
 html_css_files = '_static/custom.css'
 
@@ -142,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OneVNBrowser.tex', 'OneVN Browser Documentation',
-     'OneVN Software', 'manual'),
+    (master_doc, 'OnevnBrowser.tex', 'Onevn Browser Documentation',
+     'Onevn Software', 'manual'),
 ]
 
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'onevnbrowser', 'OneVN Browser Documentation',
+    (master_doc, 'onevnbrowser', 'Onevn Browser Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OneVNBrowser', 'OneVN Browser Documentation',
-     author, 'OneVNBrowser', 'One line description of project.',
+    (master_doc, 'OnevnBrowser', 'Onevn Browser Documentation',
+     author, 'OnevnBrowser', 'One line description of project.',
      'Miscellaneous'),
 ]
 

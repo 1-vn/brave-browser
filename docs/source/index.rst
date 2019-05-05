@@ -1,16 +1,16 @@
-.. Copyright (c) 2019 OneVN Software
+.. Copyright (c) 2019 Onevn Software
 
 
 .. _rs_welcome:
 
-Welcome to OneVN Docs
+Welcome to Onevn Docs
 ---------------------
 
-The next generation OneVN desktop browser for macOS, Windows, and Linux.
+The next generation Onevn desktop browser for macOS, Windows, and Linux.
 
 .. _rs_community:
 
-OneVN Community Resources
+Onevn Community Resources
 -------------------------
 * `community.1-vn.com <https://community.1-vn.com/>`_
 * :doc:`/docs` process

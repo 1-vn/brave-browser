@@ -19,7 +19,7 @@
   - [ ] https://github.com/1-vn/onevn-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)
   - [ ] https://github.com/1-vn/onevn-browser/wiki/Proxy-redirected-URLs
   - [ ] https://github.com/1-vn/onevn-browser/wiki/Fingerprinting-Protection-Mode
-  - [ ] https://github.com/1-vn/onevn-browser/wiki/OneVN%E2%80%99s-Use-of-Referral-Codes
+  - [ ] https://github.com/1-vn/onevn-browser/wiki/Onevn%E2%80%99s-Use-of-Referral-Codes
   - [ ] https://github.com/1-vn/onevn-browser/wiki/Custom-Headers
   - [ ] https://github.com/1-vn/onevn-browser/wiki/Web-compatibility-issues-with-tracking-protection
 

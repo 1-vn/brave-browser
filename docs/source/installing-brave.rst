@@ -1,10 +1,10 @@
-Installing OneVN
+Installing Onevn
 ################
 
 Linux
 *****
 
-NOTE: If OneVN does not start and shows an error about sandboxing, you may need
+NOTE: If Onevn does not start and shows an error about sandboxing, you may need
 to enable `user namespaces
 <https://superuser.com/questions/1094597/enable-user-namespaces-in-debian-kernel#1122977>`_. For security reasons, we do NOT recommend running with the ``--no-sandbox`` flag. For more info, see https://github.com/1-vn/onevn-browser/issues/1986#issuecomment-445057361.
 
@@ -59,7 +59,7 @@ CentOS/RHEL
 
     cat << EOF | sudo tee /etc/yum.repos.d/onevn-browser-release.repo
     [onevn-browser-release]
-    name=OneVN Browser Release Channel repository
+    name=Onevn Browser Release Channel repository
     baseurl=https://onevn-browser-rpm-release.s3.1-vn.com/x86_64/
     enabled=1
     EOF
@@ -118,7 +118,7 @@ CentOS/RHEL
 
     cat << EOF | sudo tee /etc/yum.repos.d/onevn-browser-beta.repo
     [onevn-browser-beta]
-    name=OneVN Browser Beta Channel repository
+    name=Onevn Browser Beta Channel repository
     baseurl=https://onevn-browser-rpm-beta.s3.1-vn.com/x86_64/
     enabled=1
     EOF
@@ -177,7 +177,7 @@ CentOS/RHEL
 
     cat << EOF | sudo tee /etc/yum.repos.d/onevn-browser-dev.repo
     [onevn-browser-dev]
-    name=OneVN Browser Dev Channel repository
+    name=Onevn Browser Dev Channel repository
     baseurl=https://onevn-browser-rpm-dev.s3.1-vn.com/x86_64/
     enabled=1
     EOF
@@ -236,7 +236,7 @@ CentOS/RHEL
 
     cat << EOF | sudo tee /etc/yum.repos.d/onevn-browser-nightly.repo
     [onevn-browser-nightly]
-    name=OneVN Browser Nightly Channel repository
+    name=Onevn Browser Nightly Channel repository
     baseurl=https://onevn-browser-rpm-nightly.s3.1-vn.com/x86_64/
     enabled=1
     EOF
